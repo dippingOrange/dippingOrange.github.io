@@ -1,0 +1,95 @@
+<!doctype html>
+<!--
+  ============================================================
+  文章模板 —— 写新文章时复制这个文件
+  ============================================================
+
+  步骤：
+  1. 在 posts/ 目录里复制这个文件，改文件名，比如 2026-11-my-post.html
+     文件名只用小写字母、数字和连字符，不要用空格和中文
+  2. 改下面五个地方：
+     - <title>          文章标题 · 你的名字
+     - <meta description>  一两句话摘要（搜索结果里显示）
+     - <h1>             文章标题
+     - <p class="meta"> 日期
+     - 正文：删掉示例段落，写你的内容
+  3. 回到 index.html，在 <ul class="post-list"> 里加一条：
+
+     <li>
+       <a href="posts/你的文件名.html">
+         <span class="title">文章标题</span>
+         <time datetime="2026-11-01">2026.11.01</time>
+       </a>
+     </li>
+
+     注意：最新的放最上面
+  4. 提交、推送，等一两分钟
+
+  正文可用的标签：
+    <h2>小标题</h2>
+    <p>段落</p>
+    <strong>加粗</strong>  <em>斜体</em>
+    <a href="https://...">链接</a>
+    <ul><li>列表项</li></ul>
+    <blockquote><p>引用</p></blockquote>
+    <code>行内代码</code>
+    <pre><code>代码块</code></pre>
+    <hr>  分隔线
+    <img src="../assets/图片名.jpg" alt="描述">
+  ============================================================
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>文章标题 · 你的名字</title>
+<meta name="description" content="一句话摘要。">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">你的名字</a>
+    <nav class="nav">
+      <a href="../index.html">文章</a>
+      <a href="../about.html">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article class="article">
+
+    <a class="back" href="../index.html">← 返回文章列表</a>
+
+    <header>
+      <h1>文章标题</h1>
+      <p class="meta"><time datetime="2026-11-01">2026 年 11 月 1 日</time></p>
+    </header>
+
+    <p>第一段。直接开始写，不要写「本文将……」这种开场。</p>
+
+    <h2>小标题</h2>
+
+    <p>正文段落。</p>
+
+    <blockquote>
+      <p>值得单独拿出来的一句话。</p>
+    </blockquote>
+
+    <p>结尾。可以是留给自己的问题，也可以是给读者的一句话。</p>
+
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 你的名字</span>
+    <span><a href="mailto:you@example.com">you@example.com</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

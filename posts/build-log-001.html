@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>建站第一天：网站终于上线了 · 你的名字</title>
+<meta name="description" content="建站日志 001：从零到有网址，实际用了不到一小时。">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">你的名字</a>
+    <nav class="nav">
+      <a href="../index.html">文章</a>
+      <a href="../about.html">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article class="article">
+
+    <a class="back" href="../index.html">← 返回文章列表</a>
+
+    <header>
+      <h1>建站第一天：网站终于上线了</h1>
+      <p class="meta"><time datetime="2026-10-24">2026 年 10 月 24 日</time> · 建站日志 001</p>
+    </header>
+
+    <p>
+      这篇是个模板，也是一个记录的方式。我打算把建站和写东西的过程都记下来，
+      每隔一阵写一篇。这样我就不用等「有了好想法」才开始写。
+    </p>
+
+    <h2>今天做了什么</h2>
+    <ul>
+      <li>注册了 GitHub 账号，建了一个叫 <code>用户名.github.io</code> 的仓库</li>
+      <li>把几个 HTML 文件传了上去</li>
+      <li>在 Settings 里打开了 Pages，选 main 分支的根目录</li>
+      <li>等了两分钟，网址能打开了</li>
+    </ul>
+
+    <h2>踩的坑</h2>
+
+    <p>
+      <strong>仓库名写错了。</strong>
+      第一次我起名叫 <code>website</code>，结果网址变成了
+      <code>用户名.github.io/website</code>，多一层路径。
+      想让根域名直接是 <code>用户名.github.io</code>，仓库必须一字不差地叫
+      <code>用户名.github.io</code>。
+    </p>
+
+    <p>
+      <strong>仓库建成了 Private。</strong>
+      免费账号的 Pages 只支持公开仓库，所以建的时候要选 Public。
+      我建错了以后是删掉重建的。
+    </p>
+
+    <p>
+      <strong>改完文件没生效。</strong>
+      提交之后要等一两分钟，而且浏览器有缓存，
+      刷新时按住 Shift 或者开无痕窗口比较省事。
+    </p>
+
+    <h2>学到的东西</h2>
+
+    <p>
+      git 比我以为的简单。它大概就是「给文件夹拍快照」：
+      改完东西提交一次，就多一张照片。
+      哪天改坏了，可以翻回上一张。
+    </p>
+
+    <p>
+      这条如果以后回头看，可能觉得幼稚。但没关系，日志本来就是写给未来的自己看的。
+    </p>
+
+    <h2>下一步</h2>
+    <ul>
+      <li>把首页的「你的名字」全部改成真名</li>
+      <li>写第三篇：随便什么都行</li>
+      <li>买个域名绑上去（等写满五篇再买）</li>
+    </ul>
+
+    <hr>
+
+    <p>
+      如果你也在建站，这篇大概能帮你省掉半小时。
+      有更省事的做法，欢迎写信告诉我。
+    </p>
+
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 你的名字</span>
+    <span><a href="mailto:you@example.com">you@example.com</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
